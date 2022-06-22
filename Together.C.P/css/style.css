@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@200&display=swap');@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: linear-gradient(to top, #DFE9F3 0%, white 50%);
+}
+
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+header img {
+    width: 200px;
+}
+
+section {
+    width: 70%;
+    margin: 10px 15% 25px 15%;
+}
+
+.sombra {
+    -webkit-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.51);
+    box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.51);
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+}
+
+#bienvenidos {
+    text-align: center;
+}
+
+#bienvenidos h2 {
+    font-size: 30px;
+}
+
+#bienvenidos p {
+    font-size: 20px;
+}
+

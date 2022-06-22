@@ -1,0 +1,40 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img {
+    width: 80%;
+    height: 80%;
+    margin: 0 10% 0 10%;
+}
+
+#banner .contenedor {
+    background: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    display: block;
+}
+    
+#banner h2 {
+    font-size: 50px;
+}
+
+#banner a {
+    font-size: 15px;
+    display: block;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 7px;
+    border: 1.5px solid black;
+}
+
+#banner a:hover {
+    background: rgba(184, 184, 184, 0.562);
+}
