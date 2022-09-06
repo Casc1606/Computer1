@@ -23,7 +23,7 @@ body {
 }
 
 .box:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 h1 { 
@@ -50,7 +50,7 @@ h1 {
     font-size: 15px;
 }
 
-.box input[type="submit"]{
+.box input[type="button"]{
     border: none;
     outline: none;
     height: 40px;
@@ -62,8 +62,8 @@ h1 {
     width: 50%;
 }
 
-.box input[type="submit"]:hover{
-    background: aqua;
+.box input[type="button"]:hover{
+    background: rgba(90, 90, 90, 0.534);
 }
 
 .box a {
